@@ -1,0 +1,5 @@
+INSERT INTO `countries` (`id`, `name`, `created_at`, `updated_at`) VALUES (NULL, 'USA', NULL, NULL);
+
+INSERT INTO `states` (`id`, `name`, `country_id`, `created_at`, `updated_at`) VALUES (NULL, 'Mumbai', '3', NULL, NULL), (NULL, 'Tamil Nadu', '3', NULL, NULL), (NULL, 'California', '1', NULL, NULL), (NULL, 'Texas', '1', NULL, NULL), (NULL, 'Florida', '1', NULL, NULL), (NULL, 'Ireland', '2', NULL, NULL), (NULL, 'Scotland', '2', NULL, NULL), (NULL, 'Wales', '2', NULL, NULL);
+
+INSERT INTO `cities` (`id`, `name`, `state_id`, `created_at`, `updated_at`) VALUES (NULL, 'Chennai', '2', NULL, NULL), (NULL, 'Madurai', '2', NULL, NULL), (NULL, 'Mumbai North', '1', NULL, NULL), (NULL, 'Mumbai East', '1', NULL, NULL), (NULL, 'Fresno', '3', NULL, NULL), (NULL, 'Oakland', '3', NULL, NULL), (NULL, 'Houston', '4', NULL, NULL), (NULL, 'Austin', '4', NULL, NULL), (NULL, 'Orlando', '5', NULL, NULL), (NULL, 'Miami', '5', NULL, NULL), (NULL, 'Waterford', '6', NULL, NULL), (NULL, 'Cork', '6', NULL, NULL), (NULL, 'Perth', '7', NULL, NULL), (NULL, 'Stirling', '7', NULL, NULL), (NULL, 'Swansea', '8', NULL, NULL), (NULL, 'New Port', '8', NULL, NULL);
