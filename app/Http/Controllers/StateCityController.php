@@ -9,8 +9,8 @@ class StateCityController extends Controller
 {
     public function getState(Request $request)
     {
-    	$states = DB::table("states")->where('country_id', $request->country_id)
-    				->pluck("name", "id");
+    	//print_r("expression");die;
+    	$states = DB::table("states")->where('country_id', $request->country_id)->pluck("name", "id");
     	return response()->json($states);
     }
 
